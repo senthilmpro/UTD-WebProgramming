@@ -1,0 +1,71 @@
+﻿body {
+    font-family: sans-serif
+}
+
+.icon {
+    width : 32px;
+    height : 32px;
+}
+
+a:hover{
+    color:red;
+}
+
+.utd {
+    color:red;
+    font-weight:bold;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+#nameHeader {
+    text-align:center;
+}
+
+#divContainer,#otherInfo {
+    margin: 50px;
+}
+
+ul {
+    list-style-image: url('http://www.websitestartupkit.com/uploaded/image/icon_tick_blue.gif');
+}
+
+.profilePic {
+	width : 400px;
+	height: 400px;
+	float:left;
+}
+
+#info {
+padding-left:50px
+}
+
+.tooltip{
+	display: inline;
+    position: relative;
+}
+
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+#divContainer {
+	background-color: #dff0d8;
+}
+
+#divSocialMedia {
+	margin:50px;
+}
